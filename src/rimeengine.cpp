@@ -779,9 +779,9 @@ void RimeEngine::deploy() {
 }
 
 void RimeEngine::sync() {
-    RIME_DEBUG() << "Rime Sync user data";
-    releaseAllSession(true);
-    api_->sync_user_data();
+//    RIME_DEBUG() << "Rime Sync user data";
+//    releaseAllSession(true);
+//    api_->sync_user_data();
 }
 
 void RimeEngine::updateActionsForSchema(const std::string &schema) {
